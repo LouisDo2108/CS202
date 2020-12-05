@@ -1,0 +1,50 @@
+Base constructor-0 param //Base b1
+Base constructor-1 param //Base b2(3)
+Base constructor-1 param // Base*pb=new Base(1)
+Base constructor-0 param //DerivedA da1
+DerivedA constuctor-0 param //DerivedA da1
+Base constructor-0 param // DerivedA da2(2)
+DerivedA constructor-1 param //DerivedA da2(2)
+Base constructor-0 param //DerivedA da3(2,3)
+DerivedA constructor-2 params//DerivedA da3(2,3)
+Base constructor-0 param//DerivedA da4(da2)
+Base constructor-0 param // pb=new DerivedA(4,5)
+DerivedA constructor-2 params //pb=new DerivedA(4,5)
+Base constructor-0 param //DerivedB db1
+DerivedB constructor-0 param //DerivedB db1
+Base constructor-0 param //DerivedB db2(2.7)
+DerivedB constructor-1 param //DerivedB db2(2.7)
+Base constructor-1 param //DerivedB db3(3,2.7)
+DerivedB constructor-2 params //DerivedB db3(3,2.7)
+Base copy constructor //DerivedB db4(db2)
+DerivedB copy constructor //DerivedB db4(db2)
+Base constructor-1 param //pb=new DerivedB(4,5)
+DerivedB constructor-2 params //pb=new DerivedB(4,5)
+Base copy constructor //f(b1)
+Function f // f(b1)
+Base destructor //f(b1)
+Base copy constructor //f(da1)
+Function f // f(da1)
+Base destructor //f(da1)
+Base copy constructor //f(db1)
+Function f //f(db1)
+Base destructor //f(db1)
+Base destructor //delete pb
+DerivedB destructor //DerivedB db4(db2)
+Base destructor //DerivedB db4(db2)
+DerivedB destructor //DerivedB db3(3,2.7)
+Base destructor //DerivedB db3(3,2.7)
+DerivedB destructor //DerivedB db2(2.7)
+Base destructor //DerivedB db2(2.7)
+DerivedB destructor //DerivedB db1
+Base destructor //DerivedB db1
+DerivedA destructor //DerivedA da4(da2)
+Base destructor //DerivedA da4(da2)
+DerivedA destructor //DerivedA da3(2,3)
+Base destructor //DerivedA da3(2,3)
+DerivedA destructor //DerivedA da2(2)
+Base destructor //DerivedA da2(2)
+DerivedA destructor //DerivedA da1
+Base destructor //DerivedA da1
+Base destructor //Base b2(3)
+Base destructor //Base b1
